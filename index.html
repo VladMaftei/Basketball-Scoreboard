@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="scorearea">
+                <h3>HOME</h3>
+                <div id="homeScoreCard" class="scorecard">
+                    <p id="homeScoreEl">0</p>
+                </div>
+                <div class="changescore">
+                    <button id="plusOneHome" onclick="homePlusOne()" class="scorebtn">+1</button>
+                    <button id="plusTwoHome" onclick="homePlusTwo()" class="scorebtn">+2</button>
+                    <button id="plusThreeHome" onclick="homePlusThree()" class="scorebtn">+3</button>
+                </div>
+            </div>
+            
+            <div class="scorearea">
+                <h3>GUEST</h3>
+                <div id="guestScoreCard" class="scorecard">
+                    <p id="guestScoreEl">0</p>
+                </div>
+                <div class="changescore">
+                    <button id="plusOneGuest" onclick="guestPlusOne()" class="scorebtn">+1</button>
+                    <button id="plusTwoGuest" onclick="guestPlusTwo()" class="scorebtn">+2</button>
+                    <button id="plusThreeGuest" onclick="guestPlusThree()" class="scorebtn">+3</button>
+                </div>
+            </div>
+            
+          
+        </div>
+        
+        <div class="newgamearea">
+            <button id="newGameBtn" onclick="scoreReset()" class="newgamebtn">NEW GAME</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

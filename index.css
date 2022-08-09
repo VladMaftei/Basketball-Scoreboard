@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.scorearea {
+    text-align: center;
+}
+
+.scorecard {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    height: 120px;
+    width: 155px;
+}
+
+.scorecard p {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    color: red;
+    text-align: center;
+    vertical-align: center;
+    font-size: 72px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.changescore {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.scorebtn {
+    font-family: 'Cursed Timer ULiL';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    background: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.scorebtn:hover {
+    background-color: #9AABD8;
+    color: red;
+}
+
+.newgamearea {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.newgamebtn {
+    background: green;
+    border: none;
+    border-radius: 5px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.newgamebtn:hover {
+    color: whitesmoke;
+}
